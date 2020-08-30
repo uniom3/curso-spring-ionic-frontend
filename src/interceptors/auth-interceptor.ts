@@ -21,7 +21,6 @@ export class AuthInterceptor implements HttpInterceptor {
             return next.handle(authReq);
         }
         else {
-            console.log('deu ruim');
             return next.handle(req);
         }
 
